@@ -35,32 +35,3 @@ for link in image_links:
         imagefile.write(chunk)
     imagefile.close()
 print('Done.')
-
-
-#def album():
-#    url = requests.get(imgur_site)
-#    url.raise_for_status()
-#    soup = BeautifulSoup(url.text, "xml")
-#
-#
-#
-#    album_links = soup.find_all('div', {"class":"image post-image"})
-#    print(album_links)
-#    
-#    print('Now downloading images...')
-#    for link in album_links:
-#            item = link['src']
-#            print(item)
-#            title = link.find('alt')
-#            
-#            print('Downloading %s' %(item))
-#            actual_image = "https:"+item
-#            res = requests.get(actual_image)        
-#            res.raise_for_status()  
-#            imagefile = open(os.path.join(path, title), 'wb')
-#            for chunk in res.iter_content(100000):
-#                    imagefile.write(chunk)
-#            imagefile.close()  
-#
-#album()
-#print('Done.')
