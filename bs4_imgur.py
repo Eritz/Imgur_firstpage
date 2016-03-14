@@ -7,7 +7,7 @@ print('This program will download and save images from a given imgur link.',
 
 imgur_site = input('Copy and paste the imgur full link here:\n')
 imgur_site_append = imgur_site +'/all?scrolled'
-# Create the folder
+# Creates the folder
 print('Where would you like to make your folder?')
 folder_location = str(input())
 print('Okay. What would you like to name it?')
