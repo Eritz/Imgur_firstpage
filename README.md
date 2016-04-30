@@ -1,9 +1,6 @@
-# imgur_firstpage
+# Imgur_firstpage
 
-Python scripts for downloading images off an imgur link to a designated folder.
+This repo contains two Python scripts for downloading images off a given Imgur link into a specified folder. Both have the same function but different libraries (Selenium vs. BeautifulSoup)
 
-
-This will only download the first page off that link.
-
-
-Contained in this repo are two scripts that perform the same role. The difference is that one uses off selenium and the other uses BeautifulSoup.
+#Note: 
+This will only download the first page of the link if given an Imgur album.
